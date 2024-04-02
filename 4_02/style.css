@@ -1,0 +1,74 @@
+/* 혜성ㅋ */
+@import url("style2.css"); /* url함수(function) */
+
+span.orange {
+    color: orange;
+}
+
+ul > .green {
+    color: green;
+}
+
+ul .red {
+    color: red;
+}
+
+/* .yellow + li { 
+    color: yellow;
+} */
+
+.yellow ~ li {
+    color: yellow;
+}
+
+.purple:hover {
+    color: purple;
+}
+
+.purple:active {
+    color: red;
+}
+input:focus {
+    background-color: aqua;
+}
+
+.car span:first-child {
+    color: orange;
+}
+.car h3:last-child {
+    color: gray;
+}
+.car *:nth-child(2) {
+    color: red;
+}
+.car *:not(span) {
+    font-size: x-large;
+}
+
+.box::before {
+    content: "💕";
+}
+.box::after {
+    content: "💕";
+}
+
+[disabled] {
+    color: red;
+}
+[type=password] {
+    color: chartreuse;
+}
+[value="HI"] {
+    color: blue;
+}
+
+.animal {
+    color: red;
+}
+
+div {color: red !important;}
+#color_yellow {color: yellow;}
+.color_green {color: green;}
+div {color: blue;}
+* {color: brown;}
+body {color: violet;}
